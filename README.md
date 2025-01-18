@@ -20,14 +20,15 @@ Restez avec moi et suivez les étapes. Une petite vidéo d'introduction vous exp
 
 ---
 
-### Création du projet symfony
+## Création du projet symfony
+
+[Video de création du repository](https://vimeo.com/1047889713/6776a92079?share=copy)
 
 1. Symfony dispose d’un outil CLI (Command Line Interface) pour créer et gérer facilement des projets. Je fais l'impasse sur l'intallation de Symfony mais vérifions tout de même qu'il soit présent.
 
 ```bash
 symfony -v
 ```
----
 
 2. Ensuite pour créer un projet symfony il suffit d'utiliser la commande
 
@@ -49,7 +50,9 @@ symfony server:start
 
 L’application sera disponible sur http://127.0.0.1:8000
 
-### Préparons la CI/CD avec PHPUnit
+## Préparons la CI/CD avec PHPUnit
+
+[Lien de la video de préparation](https://vimeo.com/1047869030/892d772abe?share=copy)
 
 1. D'abord nous allons installer PHPUnit qui est un framework de test pour php. Il permet d'écrire des tests unitaires pour vos méthodes de classe.
 
@@ -105,5 +108,50 @@ vendor/bin/phpunit
 ></phpunit>
 >```
 
+## Mise en place CI/CD avec GITHUB actions
 
+### Initialisation
+1. Initialiser Git en Local
+**À la racine du projet Symfony**
+```bash
+git init
+```
 
+2. Ajouter tous les fichiers au suivi
+**Cela inclut tous les fichiers essentiels**
+```bash
+git add .
+```
+
+3. Créer un premier commit
+```bash
+git commit -m "Initial commit"
+```
+
+### Création du Dépot
+
+[Video D'explication](https://vimeo.com/1047889713/6776a92079?share=copy)
+
+1. Se connecter à GitHub
+   
+Accède à [GITHUB](https://github.com).
+
+2. Créer un nouveau dépôt
+   
+3. Connecter le dépôt local à GitHub
+   
+**Ajoute l'URL de ton dépôt distant**
+
+```bash
+git remote add origin https://github.com/nom-utilisateur/nom-projet.git
+```
+
+### Configuration de GitHub Actions
+
+Tout est dans la vidéo :)
+
+[Video de mise en place](https://vimeo.com/1048115026/f39150d767?share=copy)
+
+### En Bonus les Github secrets
+
+[Video des secrets](https://vimeo.com/1047925524/6d1d710024?share=copy)
