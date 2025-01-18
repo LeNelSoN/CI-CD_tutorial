@@ -22,7 +22,7 @@ Restez avec moi et suivez les étapes. Une petite vidéo d'introduction vous exp
 
 ## Création du projet symfony
 
-[Video de création du repository](https://vimeo.com/1047889713/6776a92079?share=copy)
+[Video](https://vimeo.com/1047889713/6776a92079?share=copy)
 
 1. Symfony dispose d’un outil CLI (Command Line Interface) pour créer et gérer facilement des projets. Je fais l'impasse sur l'intallation de Symfony mais vérifions tout de même qu'il soit présent.
 
@@ -52,7 +52,7 @@ L’application sera disponible sur http://127.0.0.1:8000
 
 ## Préparons la CI/CD avec PHPUnit
 
-[Lien de la video de préparation](https://vimeo.com/1047869030/892d772abe?share=copy)
+[Video de création](https://vimeo.com/1048163882/88b62fc531?share=copy)
 
 1. D'abord nous allons installer PHPUnit qui est un framework de test pour php. Il permet d'écrire des tests unitaires pour vos méthodes de classe.
 
